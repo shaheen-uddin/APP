@@ -1,0 +1,130 @@
+@model IEnumerable<AppProject.Models.Trainee>
+
+@{
+    ViewData["Title"] = "List";
+}
+@if(Model !=null)
+{
+<div class="row">
+       <div class="col-md-12 my-5">
+        <h3 class="text-left text-success" > @Model.ToList().Count Registered participants found.</h3>
+      </div>
+</div>
+}
+else
+{
+    <div class="row">
+       <div class="col-md-12 my-5">
+        <h3 class="text-left text-success" > No teacher has found in this category.</h3>
+      </div>
+</div>
+
+}
+
+
+ <div class="row mb-3" >
+     <h4 class="col-md-12 text-primary">FTC Batch @ViewBag.bn</h4>
+ </div> 
+    <form asp-action="Search" method="get" id="search">  
+        <div class="form-group row no-gutters">
+            
+          <label for="search" class="col-md-1 form-control-label"  style="width:100%">Search by</label>
+            <div class="col-md-3">
+                <input type="hidden" name="bn" value="@ViewBag.bn"/>
+                <select name="searchType" class="form-control-label src searchType" style="width:100%">
+                    <option value="">Select a search category</option>
+                    <option value="subject">Subject</option>
+                    <option value="name">Name</option>
+                    <option value="serial">ID</option>
+                    <option value="bcsBatch">BCS Batch No.</option>
+                    <option value="gender">Gender</option>
+                    <option value="dsheCategory">Category by DSHE</option>
+
+                </select>
+                <span class="text-danger d-none" id="searchTypeAlert">Plz, select a serach category</span>
+            </div>
+            <div class="col-md-3">
+                 <input type="text" name="searchString" class="form-control-label"  style="width:100%" id="searchString"/>
+            </div>
+             <div class="col-md-3">
+                 <input type="submit" class="btn btn-primary form-control-label" value="Search" id="searchBtn"  style="width:60%"/>
+            </div>
+   
+        </div>
+    
+    </form>
+    @if(ViewBag.SearchVal !=null)
+    {
+        <h3>No result found in the @ViewBag.SearchVal category</h3>
+    }
+    
+@if(Model !=null)
+{
+
+
+<div class="table-responsive">
+<table class="table table-hover ">
+    <thead>
+        <tr>
+            <th>SL No.</th>
+            <th>DSHE Serial</th>
+            <th>DSHE Category</th>
+            <th>Name</th>
+            
+            <th>@Html.DisplayNameFor(model => model.Designation)</th>
+            <th>@Html.DisplayNameFor(model => model.Subject)</th>
+            <th>@Html.DisplayNameFor(model => model.WorkplaceAddress)</th>
+            <th>Registration Date</th>
+            <th>@Html.DisplayNameFor(model => model.ProfileImagePath)</th>
+            <th></th>
+        </tr>
+    </thead>
+   <tbody>
+     
+   @{ var list = Model.ToList();
+        for(int i =0; i<list.Count; i++)
+        {
+            <tr>
+        <td>
+            @(i+1).
+        </td>  
+        <td style="color:red;font-weight:bold" class="text-danger h4">@Html.DisplayFor(modelItem => list[i].DsheSL)</td>      
+        <td>@Html.DisplayFor(modelItem => list[i].TraineeType)</td>
+        
+        <td>
+            @Html.DisplayFor(modelItem =>list[i].Name )
+        </td>
+      
+        <td>
+             @Html.DisplayFor(modelItem => list[i].Designation)
+        </td>
+        <td>@Html.DisplayFor(modelItem => list[i].Subject)</td>
+        <td>
+            @Html.DisplayFor(modelItem => list[i].WorkplaceAddress)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => list[i].RegDate)
+        </td>
+          <td>
+            <img src="@Html.DisplayFor(modelItem => list[i].ProfileImagePath)" width="180" height="150"/>
+        </td>
+        <td>
+             <a asp-action="Edit" asp-route-id="@list[i].ID">Edit</a> 
+              
+                <a asp-action="Details" asp-route-id="@list[i].ID" asp-route-sl="@i">Details</a>
+               
+                
+                <a asp-action="Delete" asp-route-id="@list[i].ID">Delete</a>
+              
+        </td>
+    
+        </tr>
+           
+        }
+   
+   }
+   </tbody>
+</table>
+</div>
+}

@@ -1,0 +1,77 @@
+@model IEnumerable<AppProject.Models.Trainee>
+
+
+@{
+    ViewData["ID Generation"] = "ID Generation";
+}
+
+@{
+    var batch = Model.ToList()[1];
+   // string duration = 
+}
+<div class="container header">
+    <div class="row">
+        <div class="col-md-12 justify-content-center">
+            <p class="text-center">Government of People's Republic of Bangladesh<br><span class="h5">National Academy for Educational Management(NAEM)</span><br>
+            NAEM Road, Dhanmondi, Dhaka-1205<br>
+            @Html.DisplayFor(model => batch.BatchNo) Foundation Training Course<br>
+            Duration: @Html.DisplayFor(model => batch.OpeningDate) - @Html.DisplayFor(model => batch.ClosingDate)
+            </p>
+        </div> 
+    </div> <!-- end of row -->
+     <div class="row">
+            <div class="col-md-12 justify-content-right">
+                <p class="text-right mr-3">Date :.........................</p>
+     </div>
+
+</div>
+
+<div id="bdr" class="table-responsive table-bordered">
+<table class="table table-hover ">
+    <thead>
+        <tr>
+            <th class="text-center">ID</th> 
+            <th class="text-center" style="width:500px">Name, Designation & Address</th>
+            <th class="text-center" style="padding-left:5;padding-right:5">1st</th>
+            <th class="text-center">2<span style="" class="pb-1">nd</span></th>
+            <th class="text-center">3rd</th>
+            <th class="text-center">4th</th>
+            <th class="text-center">5th</th>
+         
+        </tr>
+    </thead>
+   <tbody>
+     
+   @{ var list = Model.ToList();
+        for(int i =0; i<list.Count; i++)
+        {
+            <tr>
+        <td class="text-center">
+              @Html.DisplayFor(modelItem =>list[i].TraineeSerial)
+        </td> 
+             
+        
+        <td>
+            @Html.DisplayFor(modelItem =>list[i].Name)<br>
+             @Html.DisplayFor(modelItem => list[i].Designation), @Html.DisplayFor(modelItem => list[i].Subject) <br>
+            @Html.DisplayFor(modelItem => list[i].WorkplaceAddress)
+           
+        </td>
+        <td class="text-center"></td>  
+        <td class="text-center"></td> 
+        <td class="text-center"></td> 
+        <td class="text-center"></td> 
+        <td class="text-center"></td>
+        @*  <td>
+             <a asp-action="#" asp-route-id="">Edit</a> |&nbsp;
+                <a asp-action="Details" asp-route-id="@list[i].ID" asp-route-sl="@i">Details</a>|&nbsp;
+        </td>*@
+    
+        </tr>
+           
+        }
+   
+   }
+   </tbody>
+</table>
+</div>

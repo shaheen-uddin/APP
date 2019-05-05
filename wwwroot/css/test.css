@@ -1,0 +1,70 @@
+dl dt { font-weight: normal;}
+
+.bg-col{background-color:#404751}
+.bg-col{background-color: #FAFAFB}
+#search { margin-bottom: 50px}
+#search label{ font-size: 1.2rem}
+.src{padding-top: 2px;padding-bottom: 3px;}
+/* .table-bordered table> thead > tr > th{ border:1px solid #000!important;}
+.table-bordered table  td{ border:1px solid #000!important;}
+.my-7 { 
+    margin-bottom:6rem !important;
+    margin-top:6rem !important;
+}
+.my-7 .table > tbody > tr > td {
+    vertical-align: middle;
+}
+/* @page {
+    //size: A4;
+   // margin-top: 30px;
+      margin: 1cm;
+      size : legal;
+
+    /* width: 21cm;
+    height: 29.7cm;  
+  }
+
+  @page:first {
+    size: 5.5in 6.5in;  
+    margin: 0;
+  } */
+@media print{
+    
+     /*  html,body{
+        font: 15pt Georgia, "Times New Roman", Times, serif;
+        background: #fff !important;
+        color: #000;
+            
+      }
+       .
+      
+      .my-7 { margin-bottom:6pt !important; margin-top:6pt !important;page-break-inside:avoid; margin-top: 40pt;widows: 3;}
+    
+      footer { display:none;}
+
+   .my-7 .table > tbody > tr > td {vertical-align: middle;}
+
+ /* // #top .table{ border: 1px solid #000 !important;page-break-after:avoid;}
+  //#top .table tr th{ border:1px solid #000 !important}
+  //#top .table  tr  td{ border:1px solid #000 !important;}   */
+
+   /* #details .table { border: 1px solid #000 !important ;page-break-before:avoid;}
+   #details .table tr th{ border:1px solid #000 !important}
+   #details .table  tr  td{ border:1px solid #000 !important;}   */
+
+  /* .details .table { border: 1px solid #000 !important ;page-break-before:avoid;}
+   .details .table tr th{ border:1px solid #000 !important}
+   .details .table  tr  td{ border:1px solid #000 !important;}   
+
+
+
+   #bdr{page-break-inside:avoid; margin-top: 40px;widows: 3;page-break-before: avoid;}
+
+    //.table .table-bordered { border: 1px solid #010509 !important;}
+    .header {page-break-after: avoid;}
+
+    .no-break {page-break-inside: avoid; } */
+ */
+}
+
+

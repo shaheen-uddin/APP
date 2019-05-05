@@ -1,0 +1,241 @@
+@model AppProject.Models.Trainee
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<div>
+   
+    
+    <div class="row">
+        <div class="col-md-4">
+             <h4>Trainee Info</h4>
+            
+        </div>
+        <div class="col-md-8">
+            <h3 style="text-align:right" class="print"><a href="#" <i class="fas fa-print"></i></a></h3>
+        </div>
+
+    </div>
+    <hr />
+    <div class="row">
+        <h4 class="col-md-10 text-left SL"><span class="SL"> SERIAL NO.</span>  @ViewBag.SL</h4>
+    </div>
+    <dl class="row">
+            <!--  DSHE SERIAL -->
+             <dt class="col-sm-4">
+                 @Html.DisplayNameFor(model => model.DsheSL)<span style="display:inline-block;float:right">:</span>
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.DsheSL)
+            </dd>
+            <dt class="col-sm-4">
+                 @Html.DisplayNameFor(model => model.TraineeType)<span style="display:inline-block;float:right">:</span>
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.TraineeType)
+            </dd>
+           <!--  Course Info -->
+            <dt class="col-sm-4">
+                 @Html.DisplayNameFor(model => model.Course_Name)<span style="display:inline-block;float:right">:</span>
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.Course_Name)
+            </dd>
+
+             <dt class="col-sm-4">
+                  @Html.DisplayNameFor(model => model.BatchNo)<span style="display:inline-block;float:right">:</span>
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.BatchNo)
+            </dd>
+             <dt class="col-sm-4">
+                  @Html.DisplayNameFor(model => model.OpeningDate)<span style="display:inline-block;float:right">:</span>
+            </dt>
+            <dd class="col-sm-6">
+                From @Html.DisplayFor(model => model.OpeningDate) to  @Html.DisplayFor(model => model.ClosingDate)
+            </dd>
+            
+            <!-- Personal Info -->
+               <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Name)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.Name)
+              </dd>
+               <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.ProfileImagePath)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  <img src="@Html.DisplayFor(model => model.ProfileImagePath)" width="180" height="150"/>
+              </dd>
+               <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.FatherName)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.FatherName)
+              </dd>
+               <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.MotherName)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.MotherName)
+              </dd>
+              <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Gender)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.Gender)
+              </dd>
+              <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.DateOfBirth)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.DateOfBirth)
+              </dd>
+
+
+             <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.BloodGroup)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.BloodGroup)
+              </dd>
+             
+             <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.MaritalStatus)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.MaritalStatus)
+              </dd>
+
+               <dt class="col-sm-4">
+                  @Html.DisplayNameFor(model => model.Age)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.Age)
+              </dd>
+              <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.CellNo)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.CellNo)
+              </dd>
+             <dt class="col-sm-4">
+                  @Html.DisplayNameFor(model => model.Email)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.Email)
+              </dd>
+
+              <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.NID)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.NID)
+              </dd>
+
+              <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.PermanentAddress)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.PermanentAddress)
+              </dd>
+             
+            <!--  JOB INFO -->
+               <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.Designation)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.Designation)
+              </dd>
+              <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Subject)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.Subject)
+              </dd>
+               <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.IndexNo)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.IndexNo)
+              </dd>
+                  <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.NameOfCadre)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.NameOfCadre)
+              </dd>
+               <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.BCSBatchNo)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.BCSBatchNo)
+              </dd>
+
+             <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.WorkplaceAddress)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.WorkplaceAddress)
+              </dd>
+              <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.EiinNo)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.EiinNo)
+              </dd>
+
+             <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.AcademicQualification)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.AcademicQualification)
+              </dd>
+
+               
+
+              <!-- EMMERGENCY CONTACT INFO -->
+            
+            <dt class="col-sm-4">
+                  @Html.DisplayNameFor(model => model.EmmergencyContactName)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.EmmergencyContactName)
+              </dd>
+            
+              <dt class="col-sm-4">
+                  @Html.DisplayNameFor(model => model.EmmergencyContactCellNo)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                  @Html.DisplayFor(model => model.EmmergencyContactCellNo)
+              </dd>
+          
+               <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.SignatureImgPath)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   <img src="@Html.DisplayFor(model => model.SignatureImgPath)" width="180" height="150"/>
+              </dd>
+               <dt class="col-sm-4">
+                   @Html.DisplayNameFor(model => model.RegDate)<span style="display:inline-block;float:right">:</span>
+              </dt>
+              <dd class="col-sm-6">
+                   @Html.DisplayFor(model => model.RegDate)
+              </dd>
+               <dt class="col-sm-4">
+
+               </dt>
+        </dl>
+</div> 
+
+
+<div>
+   @*<a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> *@|
+   <a asp-action="#" asp-route-id="">Edit</a>|
+   @* <a asp-action="Index">Back to List</a>*@
+     <a asp-action="List">Back to List</a>
+</div>

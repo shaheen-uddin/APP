@@ -1,0 +1,72 @@
+@model IEnumerable<AppProject.Models.Trainee>
+
+@{
+    ViewData["ID_Page"] = "ID Page";
+    var traineeList = Model.ToList();
+    string[] sections = {"Masranga","Doel"};
+    //var batch = Model.ToList()[1];
+}
+
+
+<div class="container">
+     <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">Government of People's Republic of Bangladesh<br><span class="h5">National Academy for Educational Management(NAEM)</span><br>
+            NAEM Road, Dhanmondi, Dhaka-1205<br>
+            @Html.DisplayFor(model => traineeList[1].BatchNo) Foundation Training Course<br>
+            Duration: @Html.DisplayFor(model => traineeList[0].OpeningDate) - @Html.DisplayFor(model => traineeList[0].ClosingDate)
+            </p>
+        </div> <!-- column -->
+    </div> <!-- row -->
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">Masranga</h3>
+        </div> <!--column-->
+    </div> <!-- row -->
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-right mr-3">Date :.........................</p>
+        </div> <!--column-->
+    </div> <!-- row -->
+      <table class="table table-borderd details">
+        <thead>
+            <tr>
+                <th class="text-center">ID</th>
+                <th class="">Name, Designation & Address</th>
+                <th class="text-center px-3">1st</th>
+                <th class="text-center px-4">2nd</th>
+                <th class="text-center px-4">3rd</th>
+                <th class="text-center px-4">4th</th>
+                <th class="text-center px-5">5th</th>
+            </tr>
+        </thead>
+        <tbody>
+
+    @{
+     
+   
+    for(int i=0; i< traineeList.Count; i++)
+    {
+   
+    
+            <tr>
+                <td class="text-center">@Html.DisplayFor(modelItem => traineeList[i].TraineeSerial)</td>
+                <td class="">
+                    @Html.DisplayFor(modelItem => traineeList[i].Name)<br>
+                    @Html.DisplayFor(modelItem => traineeList[i].Designation), @Html.DisplayFor(modelItem => traineeList[i].Subject)<br>
+                    @Html.DisplayFor(modelItem => traineeList[i].WorkplaceAddress)
+                </td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
+            </tr>
+    
+
+   }
+      
+}
+ </tbody>
+  </table>
+</div> <!-- container -->

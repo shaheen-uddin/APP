@@ -1,0 +1,20 @@
+/* @page {size:a4;margin:.5cm;margin-bottom: 1cm;margin-top: 1cm;}
+@page :first { margin-top: 5in; } 
+@media print {
+   html,body{font: 15pt Georgia, "Times New Roman", Times, serif; background: #fff !important; color: #000;}
+
+   .details .table { border: 1px solid #000 !important ;page-break-after: always;}
+   .details .table tr th{ border:1px solid #000 !important}
+   .details .table  tr  td{ border:1px solid #000 !important;}  
+
+   footer { display: none;}
+   .hdr {page-break-after: avoid;}
+  // .table {page-break-after:;}
+  //.hack{padding-left: 40pt;padding-right: 40px;}
+   
+
+
+
+
+} */
+@page{width:21.59cm;height: 35.56cm;}

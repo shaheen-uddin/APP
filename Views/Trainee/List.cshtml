@@ -1,0 +1,80 @@
+@model IEnumerable<AppProject.Models.Trainee>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<div class="row">
+    <div class="col-md-8 my-5">
+        <h2 class="text-left text-success" style=""> @Model.ToList().Count teachers have registered so far.</h2>
+       
+    </div>
+    <div class="col-md-4 my-5">
+         <p> 
+          <a asp-action="Create" class="lead">Click to Register </a>
+       </p> 
+    </div>
+</div>
+
+<table class="table-responsive">
+<table class="table table-hover ">
+    <thead>
+        <tr>
+            <th>SL No.</th>
+            <th>Name</th>
+            
+            <th>@Html.DisplayNameFor(model => model.Designation)</th>
+            <th>@Html.DisplayNameFor(model => model.WorkplaceAddress)</th>
+            <th>@Html.DisplayNameFor(model => model.Course_Name) </th>
+            <th>Registration Date</th>
+            <th>@Html.DisplayNameFor(model => model.ProfileImagePath)</th>
+            <th></th>
+        </tr>
+    </thead>
+   <tbody>
+     
+   @{ var list = Model.ToList();
+        for(int i =0; i<list.Count; i++)
+        {
+            <tr>
+        <td>
+            @(i+1).
+        </td>        
+        
+        <td>
+            @Html.DisplayFor(modelItem =>list[i].Name )
+        </td>
+      
+        <td>
+             @Html.DisplayFor(modelItem => list[i].Designation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => list[i].WorkplaceAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => list[i].Course_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => list[i].RegDate)
+        </td>
+          <td>
+            <img src="@Html.DisplayFor(modelItem => list[i].ProfileImagePath)" width="180" height="150"/>
+        </td>
+        <td>
+              <a asp-action="Edit" asp-route-id="@list[i].ID">Edit</a>
+              @* <a asp-action="#" asp-route-id="">Edit</a> |&nbsp;*@
+                <a asp-action="Details" asp-route-id="@list[i].ID" asp-route-sl="@i">Details</a>|&nbsp;
+                 <a asp-action="#" asp-route-id="">Delete</a> 
+                
+               @* <a asp-action="Delete" asp-route-id="@list[i].ID">Delete</a>*@
+              
+        </td>
+    
+        </tr>
+           
+        }
+   
+   }
+   </tbody>
+</table>
+</div>
