@@ -25,7 +25,7 @@ else
  <div class="row mb-3" >
      <h4 class="col-md-12 text-primary">FTC Batch @ViewBag.bn</h4>
  </div> 
-    <form asp-action="Search" method="get" id="search">  
+  @*   <form asp-action="Search" method="get" id="search">  
         <div class="form-group row no-gutters">
             
           <label for="search" class="col-md-1 form-control-label"  style="width:100%">Search by</label>
@@ -39,6 +39,7 @@ else
                     <option value="bcsBatch">BCS Batch No.</option>
                     <option value="gender">Gender</option>
                     <option value="dsheCategory">Category by DSHE</option>
+                    <option value="homeDistrict">Home District</option>
 
                 </select>
                 <span class="text-danger d-none" id="searchTypeAlert">Plz, select a serach category</span>
@@ -51,8 +52,44 @@ else
             </div>
    
         </div>
-    
-    </form>
+    </form> *@
+    <hr>
+    <!-- test nice form -->
+    <div class="row d-flex justify-content-center">
+     <div class="col-md-8">
+        <form asp-action="search" method="get">  
+             <input type="hidden" name="bn" value="@ViewBag.bn"/>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2"> Search by </span>
+            </div>
+                <select name="searchType" class="form-control src searchType">
+                    <option value="">Select a search category</option>
+                    <option value="subject">Subject</option>
+                    <option value="name">Name</option>
+                    <option value="serial">ID</option>
+                    <option value="bcsBatch">BCS Batch No.</option>
+                    <option value="gender">Gender</option>
+                    <option value="dsheCategory">Category by DSHE</option>
+                    <option value="homeDistrict">Home District</option>
+
+                </select>
+                <input type="text" name="searchString" class="form-control" id="searchString"/>
+                <div class="input-group-append">
+                    <!-- <button class="btn btn-success" type="submit">Go</button> -->
+                    <button class="" type="submit"><img src="~/images/search.png" class="sc"  id="searchBtn"/></button>
+                </div>
+            </div>
+             <span class="text-danger d-none" id="searchTypeAlert">Plz, select a serach category</span>
+        </form>
+     </div>
+ </div>
+
+
+    <!-- test nice form -->
+
+
+
     @if(ViewBag.SearchVal !=null)
     {
         <h3>No result found in the @ViewBag.SearchVal category</h3>

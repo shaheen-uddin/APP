@@ -3,10 +3,10 @@ $(document).ready(function()
         
         //let cellNo = $('#CellNo').val();
 
-        $('#CellNo').on('change', function()
+        $('#CellNo--').on('change', function()
             {
                 let cellNo = $('#CellNo').val();
-                if(cellNo.length == 11)
+                if(cellNo != null && cellNo.length == 11)
                 {
                    // $('#alert').text(cellNo);
                     let data = $('#CellNo').val();

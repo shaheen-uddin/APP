@@ -14,10 +14,10 @@ namespace AppProject.Models
 
         }
         public DbSet<AppProject.Models.Trainee> Trainees{ get; set;}
-        public DbSet<AppProject.Models.TraineeID> TraineesID { get; set;}
+       public DbSet<District> Districts  { get; set;}
 
        protected override void OnModelCreating(ModelBuilder modelBuilder)
-       {
+       {  /*
            modelBuilder.Entity<TraineeID>()
                        .Property(e => e.TraineeType)
                        .HasConversion(v => v.ToString(), v => (TraineeType) Enum.Parse(typeof(TraineeType),v));
@@ -33,9 +33,12 @@ namespace AppProject.Models
                      .HasConversion( v => v.ToString(),v => (MaritalStatus)Enum.Parse(typeof(MaritalStatus),v));
         modelBuilder.Entity<TraineeID>()
                     .Property( e => e.NameOfCadre)
-                    .HasConversion( v => v.ToString(), v => (Cadre)Enum.Parse(typeof(Cadre),v));
+                    .HasConversion( v => v.ToString(), v => (Cadre)Enum.Parse(typeof(Cadre),v)); 
+        modelBuilder.Entity<Trainee>()
+                    .Property(e => e.HomeDistrict)
+                    .HasConversion(v => v.ToString(), v => (District)Enum.Parse(typeof(District),v));
            
-                     
+                     */
        }
     }
 

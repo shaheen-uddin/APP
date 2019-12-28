@@ -189,6 +189,15 @@
                             <span asp-validation-for="PermanentAddress" class="text-danger"></span>
                         </div>
                      </div>
+                      <div class="form-group row">
+                        <label asp-for="HomeDistrict" class="col-md-4 col-form-label"></label>
+                        <div class="col-md-5">
+                            <select asp-for="HomeDistrict" class="form-control" >
+                                <option value="">Select your home district</option>
+                            </select> 
+                            <span asp-validation-for="HomeDistrict" class="text-danger"></span>
+                        </div>
+                     </div>
             </fieldset>
             <fieldset class="border p-2 p-3 mb-3">
                     <legend class="w-auto text-primary">Job & Academic Info</legend>

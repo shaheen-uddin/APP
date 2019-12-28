@@ -17,6 +17,7 @@ using AppProject.Models;
 using System.Net;
 using AppProject.Services;
 
+
 namespace AppProject
 {
     public class Startup
@@ -46,6 +47,8 @@ namespace AppProject
 
             services.AddDbContextPool<AdminUserContext>(options => options.UseMySql(Configuration.GetConnectionString("AContext"),
             mySqlOptions => mySqlOptions.ServerVersion(new Version(5,7,25),ServerType.MySql)));
+
+         //   services.AddPaging();
 
 
             services.AddTransient<ImageProcess>();

@@ -13,6 +13,8 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.PixelFormats;
 using AppProject.Services;
+using X.PagedList;
+
 
 namespace AppProject.Controllers
 {
@@ -30,9 +32,15 @@ namespace AppProject.Controllers
         }
 
         // GET: Trainee
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? page)
         {
-            return View(await _context.Trainees.ToListAsync());
+            
+            var pageNumber = page ?? 1;
+            ViewBag.trainees = await _context.Trainees.ToList().ToPagedListAsync(pageNumber,5);
+            
+
+          //  return View(await _context.Trainees.ToListAsync());
+           return View();
         }
 
         // GET: Trainee/Details/5
@@ -57,6 +65,8 @@ namespace AppProject.Controllers
         // GET: Trainee/Create
         public IActionResult Create()
         {
+            var dists = _context.Districts.ToList();
+            ViewBag.Dists = dists;
             return View();
         }
 
@@ -65,7 +75,7 @@ namespace AppProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,DsheSL,TraineeType,Course_Name,BatchNo,OpeningDate,ClosingDate,LastNaemCourseAttendeded,Name,FatherName,MotherName,Gender,DateOfBirth,BloodGroup,MaritalStatus,Age,CellNo,Email,NID,PermanentAddress,Designation,IndexNo,NameOfCadre,BCSBatchNo,WorkplaceAddress,EiinNo,AcademicQualification,Subject,EmmergencyContactName,EmmergencyContactCellNo,ProfileImagePath,SignatureImgPath,RegDate,Guid")] Trainee trainee,IFormFile ProfileImg,IFormFile SignatureImg)
+        public async Task<IActionResult> Create([Bind("ID,DsheSL,TraineeType,Course_Name,BatchNo,OpeningDate,ClosingDate,LastNaemCourseAttendeded,Name,FatherName,MotherName,Gender,DateOfBirth,BloodGroup,MaritalStatus,Age,CellNo,Email,NID,PermanentAddress,Designation,IndexNo,NameOfCadre,BCSBatchNo,WorkplaceAddress,EiinNo,AcademicQualification,Subject,EmmergencyContactName,EmmergencyContactCellNo,ProfileImagePath,SignatureImgPath,RegDate,Guid,HomeDistrict")] Trainee trainee,IFormFile ProfileImg,IFormFile SignatureImg)
        {
             if (ModelState.IsValid)
             {
@@ -122,6 +132,8 @@ namespace AppProject.Controllers
                 return NotFound();
             }
             //ViewBag.UID = trainee.Guid;
+            var dists = _context.Districts.ToList();
+            ViewBag.dists = dists;
             return View(trainee);
         }
 
@@ -130,7 +142,7 @@ namespace AppProject.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,DsheSL,TraineeType,Course_Name,BatchNo,OpeningDate,ClosingDate,LastNaemCourseAttendeded,Venue,Name,FatherName,MotherName,Gender,DateOfBirth,BloodGroup,MaritalStatus,Age,CellNo,Email,NID,PermanentAddress,Designation,IndexNo,NameOfCadre,BCSBatchNo,WorkplaceAddress,EiinNo,AcademicQualification,Subject,EmmergencyContactName,EmmergencyContactCellNo,ProfileImagePath,SignatureImgPath,RegDate,Guid,TraineeSerial")] Trainee trainee, IFormFile editPhoto, IFormFile editSign,string ProfileImagePath, string SignatureImgPath)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,DsheSL,TraineeType,Course_Name,BatchNo,OpeningDate,ClosingDate,LastNaemCourseAttendeded,Venue,Name,FatherName,MotherName,Gender,DateOfBirth,BloodGroup,MaritalStatus,Age,CellNo,Email,NID,PermanentAddress,Designation,IndexNo,NameOfCadre,BCSBatchNo,WorkplaceAddress,EiinNo,AcademicQualification,Subject,EmmergencyContactName,EmmergencyContactCellNo,ProfileImagePath,SignatureImgPath,RegDate,Guid,TraineeSerial,HomeDistrict")] Trainee trainee, IFormFile editPhoto, IFormFile editSign,string ProfileImagePath, string SignatureImgPath)
         {
             if (id != trainee.ID)
             {
@@ -283,6 +295,22 @@ namespace AppProject.Controllers
             
         }
 
+        public JsonResult Block(string ukey)
+        {
+            if(!string.IsNullOrEmpty(ukey))
+            {
+                var person = _context.Trainees.FirstOrDefault(c => c.CellNo == ukey || c.NID ==ukey || c.IndexNo ==ukey);
+                if(person !=null)
+                {
+                    return Json(person);
+                  // return person.Name;
+
+                }
+                
+            }
+            return Json(null);
+           // return "Problem";
+        }
         
         
        

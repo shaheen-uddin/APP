@@ -17,6 +17,20 @@ namespace AppProject.Migrations
                 .HasAnnotation("ProductVersion", "2.2.1-servicing-10028")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("AppProject.Models.District", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Districts");
+                });
+
             modelBuilder.Entity("AppProject.Models.Trainee", b =>
                 {
                     b.Property<int>("ID")
@@ -69,6 +83,10 @@ namespace AppProject.Migrations
 
                     b.Property<string>("Guid");
 
+                    b.Property<string>("HomeDistrict")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
                     b.Property<string>("IndexNo")
                         .IsRequired()
                         .HasMaxLength(20);
@@ -104,6 +122,8 @@ namespace AppProject.Migrations
                         .IsRequired()
                         .HasMaxLength(100);
 
+                    b.Property<int?>("TraineeSerial");
+
                     b.Property<int>("TraineeType");
 
                     b.Property<string>("WorkplaceAddress")
@@ -112,109 +132,6 @@ namespace AppProject.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Trainees");
-                });
-
-            modelBuilder.Entity("AppProject.Models.TraineeID", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("AcademicQualification")
-                        .IsRequired();
-
-                    b.Property<string>("Age")
-                        .IsRequired();
-
-                    b.Property<int?>("BCSBatchNo");
-
-                    b.Property<int>("BatchNo");
-
-                    b.Property<string>("BloodGroup")
-                        .IsRequired();
-
-                    b.Property<string>("CellNo")
-                        .IsRequired()
-                        .HasMaxLength(11);
-
-                    b.Property<DateTime>("ClosingDate");
-
-                    b.Property<string>("Course_Name")
-                        .IsRequired();
-
-                    b.Property<DateTime>("DateOfBirth");
-
-                    b.Property<string>("Designation")
-                        .IsRequired()
-                        .HasMaxLength(100);
-
-                    b.Property<int>("DsheSL");
-
-                    b.Property<int?>("EiinNo");
-
-                    b.Property<string>("Email")
-                        .IsRequired();
-
-                    b.Property<string>("EmmergencyContactCellNo")
-                        .IsRequired()
-                        .HasMaxLength(11);
-
-                    b.Property<string>("EmmergencyContactName")
-                        .IsRequired();
-
-                    b.Property<string>("FatherName")
-                        .HasMaxLength(100);
-
-                    b.Property<int>("Gender");
-
-                    b.Property<string>("Guid");
-
-                    b.Property<string>("IndexNo")
-                        .IsRequired()
-                        .HasMaxLength(20);
-
-                    b.Property<string>("LastNaemCourseAttendeded");
-
-                    b.Property<string>("MaritalStatus")
-                        .IsRequired();
-
-                    b.Property<string>("MotherName")
-                        .HasMaxLength(100);
-
-                    b.Property<string>("NID")
-                        .IsRequired();
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100);
-
-                    b.Property<string>("NameOfCadre");
-
-                    b.Property<DateTime>("OpeningDate");
-
-                    b.Property<string>("PermanentAddress")
-                        .IsRequired();
-
-                    b.Property<string>("ProfileImagePath");
-
-                    b.Property<DateTime>("RegDate");
-
-                    b.Property<string>("SignatureImgPath");
-
-                    b.Property<string>("Subject")
-                        .IsRequired()
-                        .HasMaxLength(100);
-
-                    b.Property<int?>("TraineeSerial");
-
-                    b.Property<string>("TraineeType")
-                        .IsRequired();
-
-                    b.Property<string>("WorkplaceAddress")
-                        .IsRequired();
-
-                    b.HasKey("ID");
-
-                    b.ToTable("TraineesID");
                 });
 #pragma warning restore 612, 618
         }

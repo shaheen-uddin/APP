@@ -47,7 +47,7 @@ $('document').ready(function()
             $(selector).datepicker(
                 
                 {
-                    dateFormat : "yy/mm/dd",
+                    dateFormat : "yy-mm-dd",
                     changeMonth : true,
                     changeYear : true,
                     appendText : "",
@@ -63,15 +63,14 @@ $('document').ready(function()
        
            $('#DateOfBirth').datepicker
            (
-               {
-                 dateFormat : "yy/mm/dd",
-                 changeMonth : true,
-                 changeYear : true,
-                 appendText : "",
-                 yearRange : "1950:2019",
-                 firstDay   : 6
-                 
-             }
+                {
+                    dateFormat : "yy-mm-dd",
+                    changeMonth : true,
+                    changeYear : true,
+                    appendText : "",
+                    yearRange : "1965:2020",
+                    firstDay   : 6
+                }
            );  
     }
-);
+);53

@@ -1,12 +1,13 @@
-@model IEnumerable<AppProject.Models.Trainee>
+ @model IEnumerable<AppProject.Models.Trainee>  
 
-@{
+@using X.PagedList.Mvc.Core; 
+@using X.PagedList; 
     ViewData["Title"] = "List";
 }
-
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
 <div class="row">
     <div class="col-md-8 mt-3">
-        <h2 class="text-left text-success" style=""> @Model.ToList().Count teachers have registered so far</h2>
+       
        
     </div>
     <div class="col-md-4 mt-3">
@@ -15,12 +16,13 @@
        </p> 
     </div>
 </div>
+
 <hr>
 
 
  
    
-   @{ var list = Model.ToList();
+   @{ var list = ViewBag.trainees;
         for(int i =0; i<list.Count; i++)
         {
         
@@ -34,39 +36,42 @@
                  @Html.DisplayNameFor(model => model.DsheSL)<span style="display:inline-block;float:right">:</span>
             </dt>
             <dd class="col-sm-6">
-                @Html.DisplayFor(model => list[i].DsheSL)
+               
+               @list[i].DsheSL
             </dd>
             <dt class="col-sm-4">
                  @Html.DisplayNameFor(model => model.TraineeType)<span style="display:inline-block;float:right">:</span>
             </dt>
             <dd class="col-sm-6">
-                @Html.DisplayFor(model => list[i].TraineeType)
+               
+               @list[i].TraineeType
             </dd>
+           
            <!--  Course Info -->
             <dt class="col-sm-4">
                  @Html.DisplayNameFor(model => model.Course_Name)<span style="display:inline-block;float:right">:</span>
             </dt>
             <dd class="col-sm-6">
-                @Html.DisplayFor(modelItem => list[i].Course_Name)
+               @list[i].Course_Name
             </dd>
 
              <dt class="col-sm-4">
                   @Html.DisplayNameFor(model => model.BatchNo)<span style="display:inline-block;float:right">:</span>
             </dt>
             <dd class="col-sm-6">
-                @Html.DisplayFor(modelItem => list[i].BatchNo)
+                @list[i].BatchNo
             </dd>
              <dt class="col-sm-4">
                   @Html.DisplayNameFor(model => model.OpeningDate)<span style="display:inline-block;float:right">:</span>
             </dt>
             <dd class="col-sm-6">
-                From @Html.DisplayFor(modelItem => list[i].OpeningDate) to  @Html.DisplayFor(modelItem => list[i].ClosingDate)
+                From @list[i].OpeningDate) to   @list[i].ClosingDate
             </dd>
               <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.LastNaemCourseAttendeded)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].LastNaemCourseAttendeded)
+                  @list[i].LastNaemCourseAttendeded
               </dd>
             
             <!-- Personal Info -->
@@ -74,37 +79,37 @@
                     @Html.DisplayNameFor(model => model.Name)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].Name)
+                   @list[i].Name
               </dd>
                <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.ProfileImagePath)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  <img src="@Html.DisplayFor(modelItem => list[i].ProfileImagePath)" width="180" height="150"/>
+                  <img src="@list[i].ProfileImagePath" width="180" height="150"/>
               </dd>
                <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.FatherName)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].FatherName)
+                  @list[i].FatherName
               </dd>
                <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.MotherName)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].MotherName)
+                   @list[i].MotherName
               </dd>
               <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.Gender)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].Gender)
+                 @list[i].Gender
               </dd>
               <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.DateOfBirth)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].DateOfBirth)
+                   @list[i].DateOfBirth
               </dd>
 
 
@@ -112,47 +117,47 @@
                    @Html.DisplayNameFor(model => model.BloodGroup)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].BloodGroup)
+                  @list[i].BloodGroup
               </dd>
              
              <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.MaritalStatus)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].MaritalStatus)
+                 @list[i].MaritalStatus
               </dd>
 
                <dt class="col-sm-4">
                   @Html.DisplayNameFor(model => model.Age)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].Age)
+                  @list[i].Age
               </dd>
               <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.CellNo)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                @Html.DisplayFor(modelItem => list[i].CellNo)
+                @list[i].CellNo
               </dd>
              <dt class="col-sm-4">
                   @Html.DisplayNameFor(model => model.Email)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].Email)
+                  @list[i].Email
               </dd>
 
               <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.NID)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].NID)
+                 @list[i].NID
               </dd>
 
               <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.PermanentAddress)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].PermanentAddress)
+                  @list[i].PermanentAddress
               </dd>
              
             <!--  JOB INFO -->
@@ -160,51 +165,51 @@
                    @Html.DisplayNameFor(model => model.Designation)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].Designation)
+                 @list[i].Designation
               </dd>
              <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.Subject)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].Subject)
+                    @list[i].Subject
               </dd>
                <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.IndexNo)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].IndexNo)
+                  @list[i].IndexNo
               </dd>
                   <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.NameOfCadre)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].NameOfCadre)
+                   @list[i].NameOfCadre
               </dd>
                <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.BCSBatchNo)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].BCSBatchNo)
+                   @list[i].BCSBatchNo
               </dd>
 
              <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.WorkplaceAddress)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].WorkplaceAddress)
+                   @list[i].WorkplaceAddress
               </dd>
               <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.EiinNo)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].EiinNo)
+                   @list[i].EiinNo
               </dd>
 
              <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.AcademicQualification)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].AcademicQualification)
+                   @list[i].AcademicQualification
               </dd>
 
              
@@ -215,27 +220,27 @@
                   @Html.DisplayNameFor(model => model.EmmergencyContactName)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].EmmergencyContactName)
+                 @list[i].EmmergencyContactName
               </dd>
              
               <dt class="col-sm-4">
                   @Html.DisplayNameFor(model => model.EmmergencyContactCellNo)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                  @Html.DisplayFor(modelItem => list[i].EmmergencyContactCellNo)
+                  @list[i].EmmergencyContactCellNo
               </dd>
           
                <dt class="col-sm-4">
                     @Html.DisplayNameFor(model => model.SignatureImgPath)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   <img src="@Html.DisplayFor(modelItem => list[i].SignatureImgPath)" width="180" height="150"/>
+                   <img src="@list[i].SignatureImgPath" width="180" height="150"/>
               </dd>
                <dt class="col-sm-4">
                    @Html.DisplayNameFor(model => model.RegDate)<span style="display:inline-block;float:right">:</span>
               </dt>
               <dd class="col-sm-6">
-                   @Html.DisplayFor(modelItem => list[i].RegDate)
+                   @list[i].RegDate
               </dd>
                <dt class="col-sm-4">
 
@@ -253,3 +258,6 @@
         }
    
    }
+  <!-- output a paging control that lets the user navigation to the previous page, next page, etc -->
+
+@Html.PagedListPager((IPagedList)ViewBag.trainees, page => Url.Action("Index", new { page = page }))

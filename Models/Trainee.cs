@@ -194,6 +194,11 @@ namespace AppProject.Models
         public string Guid {get; set;}
         [Display(Name="Add ID")]
         public int? TraineeSerial { get; set;}
+        [Display(Name="Home District")]
+        
+        [Required]
+        [StringLength(100)]
+        public string HomeDistrict { get; set;}
 
         
 
@@ -240,7 +245,8 @@ namespace AppProject.Models
         //BcSGEdu,BcsEdu,BcsAdm
         [Display(Name="BCS (General Education)")]
         BCSGenEdu,
-        Other
+        [Display(Name="Not Applicable")]
+        NotApplicable
     }
     public enum MaritalStatus
     {

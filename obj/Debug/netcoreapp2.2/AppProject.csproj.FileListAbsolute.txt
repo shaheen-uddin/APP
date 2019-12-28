@@ -1262,3 +1262,219 @@
 /home/falcon/Documents/PROJECTS/30-04-19_19.55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Register.g.cshtml.cs
 /home/falcon/Documents/PROJECTS/30-04-19_19.55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Login.g.cshtml.cs
 /home/falcon/Documents/PROJECTS/30-04-19_19.55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.deps.json
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.json
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.dev.json
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.dll
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.pdb
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.dll
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.csprojAssemblyReference.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CoreCompileInputs.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfoInputs.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.input.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.output.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorCoreGenerate.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Login.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Register.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Edit.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Delete.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/GenerateID.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Record.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.1.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowIDPage.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Contact.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Create.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Delete.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Edit.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Registered.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Success.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cache
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.dll
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.pdb
+/home/falcon/Documents/PROJECTS/11-05-19_13-55/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CopyComplete
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.deps.json
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.json
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.dev.json
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.dll
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.dll
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.csprojAssemblyReference.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CoreCompileInputs.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfoInputs.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.input.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.output.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorCoreGenerate.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Login.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Register.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Edit.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Delete.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/GenerateID.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Record.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.1.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowIDPage.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Contact.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Create.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Delete.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Edit.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Registered.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Success.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.dll
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CopyComplete
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.deps.json
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.json
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.dev.json
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.dll
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.dll
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.csprojAssemblyReference.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CoreCompileInputs.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfoInputs.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.input.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.output.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorCoreGenerate.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Login.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Register.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Edit.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Delete.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/GenerateID.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Record.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.1.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowIDPage.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Contact.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Create.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Delete.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Details.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Edit.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Index.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/List.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Registered.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Success.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cache
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cs
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.dll
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.pdb
+/home/falcon/Documents/PROJECTS/ACTIVE DEVELOPMENT/ux-2/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CopyComplete
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.deps.json
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.json
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.runtimeconfig.dev.json
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.dll
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.pdb
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.dll
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/bin/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.csprojAssemblyReference.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CoreCompileInputs.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorAssemblyInfo.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfoInputs.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.AssemblyInfo.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.input.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.TagHelpers.output.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorCoreGenerate.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Login.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Admin/Register.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Details.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/Edit.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/FTC/List.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Delete.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Details.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/GenerateID.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/List.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/Record.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.1.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowID.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Id/ShowIDPage.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Contact.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Support/Index.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Create.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Delete.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Details.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Edit.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Index.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/List.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Registered.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/Trainee/Success.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cache
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.RazorTargetAssemblyInfo.cs
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.Views.pdb
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.dll
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.pdb
+/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/Debug/netcoreapp2.2/AppProject.csproj.CopyComplete

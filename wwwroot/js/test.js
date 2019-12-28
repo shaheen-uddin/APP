@@ -26,7 +26,7 @@ $(document).ready(function()
                     let reader = new FileReader();
                     reader.onload = function()
                     {
-                        $(prevImg).attr({src:reader.result,width:'350px',height:'200px'});
+                        $(prevImg).attr({src:reader.result,width:'170px',height:'170px'});
                         
                     }
                     $(err).text('');

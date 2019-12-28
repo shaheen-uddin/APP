@@ -28,6 +28,12 @@
     <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/humanity/jquery-ui.css" /> -->
     <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/redmond/jquery-ui.css"/>
    <!--  <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/smoothness/jquery-ui.css"/> -->
+
+     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="~/css/test.css" />
     <link rel="stylesheet" href="~/css/print.css" />
 </head>
@@ -67,7 +73,8 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item lead text-primary" FTC asp-controller="FTC" asp-action="List" asp-route-bn="155"> FTC Batch 155</a>
                             <div class="dropdown-divider"></div>
-                         
+                            <a class="dropdown-item lead text-primary" FTC asp-controller="FTC" asp-action="List" asp-route-bn="156"> FTC Batch 155</a>
+
                             </div>
                         </li>
                         
@@ -77,6 +84,8 @@
                             <a class="dropdown-item  text-primary" asp-controller="Id" asp-action="List" asp-route-bn="154">FTC Batch 154</a> 
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item  text-primary" asp-controller="Id" asp-action="List" asp-route-bn="155"> FTC Batch 155</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item  text-primary" asp-controller="Id" asp-action="List" asp-route-bn="156"> FTC Batch 156</a>
                             <div class="dropdown-divider"></div>
                            <a class="dropdown-item  text-primary" asp-controller="Id"  asp-action="ShowIDPage" asp-route-bn="154">Attendance Sheet (FTC 154)</a>
                             <div class="dropdown-divider"></div>
@@ -94,6 +103,7 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item  text-primary" asp-controller="Id" asp-action="" asp-route-bn="155" >ID Page FTC 155</a>
                             </div>
+                            
                         </li>*@
                        @* <li class="nav-item"> <a asp-action="Registered" asp-controller="Trainee" class="nav-link">Teachers Registered</a></li>*@
                     </ul>
@@ -167,6 +177,16 @@
       <script src="~/js/edit.js" asp-append-version="true"></script>
       <script src="~/js/search.js" asp-append-version="true"></script>
       <script src="~/js/print.js" asp-append-version="true"></script>
+      <script src="~/js/suggest.js" asp-append-version="true"></script>
+     <script src="~/js/block.js" asp-append-version="true"></script>
+     
+     <script src="~/js/moment.js" asp-append-version="true"></script>
+     <script src="~/js/moment-precise-range.js" asp-append-version="true"></script>
+     <script src="~/js/age-upper.js" asp-append-version="true"></script>
+
+   
+     
+
 
 
     @RenderSection("Scripts", required: false)

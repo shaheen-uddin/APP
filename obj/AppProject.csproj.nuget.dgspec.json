@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/office/Downloads/AppProject/AppProject.csproj": {}
+    "/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/AppProject.csproj": {}
   },
   "projects": {
-    "/home/office/Downloads/AppProject/AppProject.csproj": {
+    "/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/AppProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/office/Downloads/AppProject/AppProject.csproj",
+        "projectUniqueName": "/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/AppProject.csproj",
         "projectName": "AppProject",
-        "projectPath": "/home/office/Downloads/AppProject/AppProject.csproj",
-        "packagesPath": "/home/office/.nuget/packages/",
-        "outputPath": "/home/office/Downloads/AppProject/obj/",
+        "projectPath": "/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/AppProject.csproj",
+        "packagesPath": "/home/shaheen/.nuget/packages/",
+        "outputPath": "/home/shaheen/Documents/BACKUP_18-12-19/APP/AppProject/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/office/.nuget/NuGet/NuGet.Config"
+          "/home/shaheen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -67,6 +67,10 @@
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[1.0.0-beta0006, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [

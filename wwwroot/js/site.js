@@ -8,12 +8,12 @@ $('document').ready(function(){
    $('#Course_Name').val('1');
   // $('#Course_Name').prop('readonly',true);
   //
-   $('.BatchNo').val('155');
+   $('.BatchNo').val('157');
   // $('#BatchNo').prop('readonly',true);
 
-   $('.OpeningDate').val('2019/04/29');
+   $('.OpeningDate').val('2020-01-07');
    //$('#OpeningDate').prop('disabled',true);
-   $('.ClosingDate').val('2019/08/26');
+   $('.ClosingDate').val('2020-05-05');
    //$('#ClosingDate').prop('disabled',true);
    $('#LastNaemCourseAttendeded').prop('disabled',true); 
 
@@ -36,7 +36,14 @@ $('document').ready(function(){
    
    );
  
-  
-
+  $('#NameOfCadre').on('change',function(){
+     console.log($(this).val());
+     if($(this).val() =='1'){
+        $('#BCSBatchNo').prop('disabled',true);
+     }else{
+      $('#BCSBatchNo').prop('disabled',false);
+     }
+  })
+  // $('label').after('<i class="fas fa-asterisk"></i>');
 
 });

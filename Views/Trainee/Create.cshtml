@@ -12,18 +12,18 @@
     
         <form asp-action="Create" enctype="multipart/form-data" method="post" class="mb-5">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <fieldset class="border p-3 mb-3">
+            <fieldset class="border p-3 mb-3 rounded">
                     <legend class="w-auto text-primary">DSHE Serial & Category</legend>
                     <div class="form-group row">
-                        <label asp-for="DsheSL" class="col-md-4 col-form-label"></label><span style="display:inline-block;float:right"></span>
-                        <div class="col-md-5">
+                        <label asp-for="DsheSL" class="col-md-4 col-form-label"></label>
+                                                    <div class="col-md-5">
                             <input asp-for="DsheSL" class="form-control" />
                             <span asp-validation-for="DsheSL" class="text-danger"></span>
                         </div>
                     </div>
                      <div class="form-group row">
-                        <label asp-for="TraineeType" class="col-md-4 col-form-label"></label><span style="display:inline-block;float:right"></span>
-                        <div class="col-md-5">
+                        <label asp-for="TraineeType" class="col-md-4 col-form-label"></label>
+                                                    <div class="col-md-5">
                             <select asp-for="TraineeType" class="form-control" asp-items="Html.GetEnumSelectList<TraineeType>()">
                                 <option value="" selected>Plz, select trainee category you belong to</option>
                             </select>
@@ -31,11 +31,11 @@
                         </div>
                     </div>
             </fieldset>
-            <fieldset class="border p-3 mb-3">
+            <fieldset class="border p-3 mb-3 rounded">
                     <legend class="w-auto text-primary">Course Info</legend>
 
                     <div class="form-group row">
-                        <label asp-for="Course_Name" class="col-md-4 col-form-label"></label><span style="display:inline-block;float:right"></span>
+                        <label asp-for="Course_Name" class="col-md-4 col-form-label"></label>
                         <div class="col-md-5">
                             <select asp-for="Course_Name" class="form-control" asp-items="Html.GetEnumSelectList<Course>()">
                                 <option value="" selected>Plz, select the course name</option>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label asp-for="BatchNo" class="col-md-4 col-form-label "></label><span style="display:inline-block;float:right"></span>
+                        <label asp-for="BatchNo" class="col-md-4 col-form-label "></label>
                         <div class="col-md-5">
                             <input asp-for="BatchNo" class="form-control BatchNo" />
                             <span asp-validation-for="BatchNo" class="text-danger"></span>
@@ -57,14 +57,14 @@
                                 <div class="row">
                                 <div class="col">
                                     <span style="display:inline-block;width:100%;text-align:center">From</span>
-                                    <input type="text" asp-for="OpeningDate" class="form-control OpeningDate" />
-                                    <span class="text-muted">yyyy/mm/dd</span>
+                                    <input type="text" asp-for="OpeningDate" class="form-control OpeningDate odt" />
+                                    <span class="text-muted">yyyy-mm-dd</span>
                                     <span asp-validation-for="OpeningDate" class="text-danger"></span>
                                 </div>
                                 <div class="col">
                                     <span style="display:inline-block;width:100%;text-align:center">To</span>
                                     <input type="text" asp-for="ClosingDate" class="form-control ClosingDate" />
-                                    <span class="text-muted">yyyy/mm/dd</span>
+                                    <span class="text-muted">yyyy-mm-dd</span>
                                     <span asp-validation-for="ClosingDate" class="text-danger"></span>
                                 </div>
                                </div>
@@ -81,7 +81,7 @@
                         </div>
                     </div>*@
             </fieldset>
-             <fieldset class="border p-2 p-3 mb-3 ">
+             <fieldset class="border p-2 p-3 mb-3 rounded">
                     <legend class="w-auto text-primary">Personal Info</legend>
 
                     <div class="form-group row">
@@ -119,15 +119,23 @@
                         <label asp-for="DateOfBirth" class="col-md-4 col-form-label"></label>
                         
                         <div class="col-md-5">
-                            <input type="text" asp-for="DateOfBirth" class="form-control" />
-                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-                            <span class="text-muted">yyyy/mm/dd</span>
+                            <input type="text" asp-for="DateOfBirth" class="form-control dob" placeholder="yyyy-mm-dd"/>
+                            <span asp-validation-for="DateOfBirth" class="text-danger "></span>
+                           
                         </div>
                         <div class="col-md3">
                             <span class="col-md-3  text-danger"></span>
                             
                         </div>
                         
+                    </div>
+                     <div class="form-group row">
+                        <label asp-for="Age" class="col-md-4 col-form-label"></label>
+                        <div class="col-md-5">
+                            <input asp-for="Age" class="form-control age" />
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+                       
                     </div>
                 
                       <div class="form-group row">
@@ -148,16 +156,7 @@
                             <span asp-validation-for="MaritalStatus" class="text-danger"></span>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label asp-for="Age" class="col-md-4 col-form-label"></label>
-                        <div class="col-md-5">
-                            <input asp-for="Age" class="form-control" />
-                            <span asp-validation-for="Age" class="text-danger"></span>
-                        </div>
-                        <div class="col-md3">
-                            <p class="lead"><a href="https://www.calculator.net/age-calculator.html" target="_blank"><i class="fas fa-calculator"></i> Calculate Your Age</a></p>
-                        </div>
-                    </div>
+                   
               
                     <div class="form-group row">
                         <label asp-for="CellNo" class="col-md-4 col-form-label"></label>
@@ -166,7 +165,8 @@
                             <span asp-validation-for="CellNo" class="text-danger"></span>
                         </div>
                         <div class="col-md-3">
-                            <h4 id="alert" class="text-danger"></h4>
+                            @* <h4 id="alert" class="text-danger"></h4> *@
+                            <h4 id="CellAlert" class="text-danger"></h4>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -182,6 +182,9 @@
                             <input asp-for="NID" class="form-control" />
                             <span asp-validation-for="NID" class="text-danger"></span>
                         </div>
+                        <div class="col-md-3">
+                            <h4 id="NIDAlert" class="text-danger"></h4>
+                        </div>
                     </div>
            
                      <div class="form-group row">
@@ -191,8 +194,17 @@
                             <span asp-validation-for="PermanentAddress" class="text-danger"></span>
                         </div>
                      </div>
+                     <div class="form-group row">
+                        <label asp-for="HomeDistrict" class="col-md-4 col-form-label"></label>
+                        <div class="col-md-5">
+                            <select asp-for="HomeDistrict" class="form-control" asp-items="@(new SelectList(ViewBag.Dists,"Name","Name"))">
+                                <option value="">Select your home district</option>
+                            </select> 
+                            <span asp-validation-for="HomeDistrict" class="text-danger"></span>
+                        </div>
+                     </div>
             </fieldset>
-            <fieldset class="border p-2 p-3 mb-3">
+            <fieldset class="border p-2 p-3 mb-3 rounded">
                     <legend class="w-auto text-primary">Job & Academic Info</legend>
             
             <div class="form-group row">
@@ -214,6 +226,9 @@
                 <div class="col-md-5">
                     <input asp-for="IndexNo" class="form-control" />
                     <span asp-validation-for="IndexNo" class="text-danger"></span>
+                </div>
+                <div class="col-md-3">
+                    <h4 id="indexAlert" class="text-danger"></h4>
                 </div>
             </div>
              <div class="form-group row">
@@ -257,7 +272,7 @@
            
         </fieldset>
        
-         <fieldset class="border p-2 p-3 mb-3">
+         <fieldset class="border p-2 p-3 mb-3 rounded">
                     <legend class="w-auto text-primary">Emmergency Contact Info</legend>
             <div class="form-group row">
                 <label asp-for="EmmergencyContactName" class="col-md-4 col-form-label"></label>
@@ -283,7 +298,7 @@
               </div>
          
          </fieldset>
-          <fieldset class="border p-2 p-3 mb-3">
+          <fieldset class="border p-2 p-3 mb-3 rounded" >
                     <legend class="w-auto text-primary">Images to Upload</legend>
               <div class="form-group row">
                 <label for="ProfileImg" class="col-md-4 col-form-label">Profile Photo<span class="text-primary" style="font-size:13px;">(preferred dimensions: 45×45 mm/170×170 pixels, Size <=150KB)</span></label>
@@ -321,7 +336,7 @@
                 </div>
              </div>
           </fieldset>
-            <div class="form-group row">
+            <div class="form-group row fix">
                 <label for="submit" class="col-md-4 col-form-label"></label>
                 <div class="col-md-5">
                     <input type="submit" value="Submit" class="btn btn-primary" style="width:100%"/>

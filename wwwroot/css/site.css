@@ -54,3 +54,6 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.btn{width: 100%;}
+.sc{ width:1.25em; height: 1em;}

@@ -31,7 +31,7 @@ namespace AppProject.Controllers
         {
             return Content("Working");
         }
-        [Authorize]
+       // [Authorize]
          public async Task<IActionResult> GenerateID(int? id )
         {
             if (id == null)
@@ -46,12 +46,14 @@ namespace AppProject.Controllers
                 return NotFound();
             }
             //ViewBag.UID = trainee.Guid;
+             var dists = _context.Districts.ToList();
+             ViewBag.dists = dists;
             return View(trainee);
         }
          [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> GenerateID(int id, [Bind("ID,DsheSL,TraineeType,Course_Name,BatchNo,OpeningDate,ClosingDate,LastNaemCourseAttendeded,Venue,Name,FatherName,MotherName,Gender,DateOfBirth,BloodGroup,MaritalStatus,Age,CellNo,Email,NID,PermanentAddress,Designation,IndexNo,NameOfCadre,BCSBatchNo,WorkplaceAddress,EiinNo,AcademicQualification,Subject,EmmergencyContactName,EmmergencyContactCellNo,ProfileImagePath,SignatureImgPath,RegDate,Guid,TraineeSerial")] Trainee trainee, IFormFile editPhoto, IFormFile editSign,string ProfileImagePath, string SignatureImgPath)
+        public async Task<IActionResult> GenerateID(int id, [Bind("ID,DsheSL,TraineeType,Course_Name,BatchNo,OpeningDate,ClosingDate,LastNaemCourseAttendeded,Venue,Name,FatherName,MotherName,Gender,DateOfBirth,BloodGroup,MaritalStatus,Age,CellNo,Email,NID,PermanentAddress,Designation,IndexNo,NameOfCadre,BCSBatchNo,WorkplaceAddress,EiinNo,AcademicQualification,Subject,EmmergencyContactName,EmmergencyContactCellNo,ProfileImagePath,SignatureImgPath,RegDate,Guid,TraineeSerial,HomeDistrict")] Trainee trainee, IFormFile editPhoto, IFormFile editSign,string ProfileImagePath, string SignatureImgPath)
         {
             if (id != trainee.ID)
             {
@@ -150,6 +152,7 @@ namespace AppProject.Controllers
         {
 
             ViewBag.bn = bn;
+            if(!string.IsNullOrEmpty(searchType)){ViewBag.type =searchType;}
            
             if(!string.IsNullOrEmpty(searchString))
             {
@@ -379,6 +382,12 @@ namespace AppProject.Controllers
             return View(await _context.Trainees.Where(x => x.BatchNo == bn).ToListAsync());
            
         }
+         public JsonResult SuggestDists(string search)
+        {
+           var dists = _context.Districts.Where(x => x.Name.StartsWith(search)).OrderBy(x => x.ID).ToList();
+           
+            return  Json(dists);
+        } 
 
        
         
